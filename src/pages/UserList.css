@@ -1,0 +1,31 @@
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+}
